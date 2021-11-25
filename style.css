@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #9CA3AF;
+}
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height:10vh;
+    width:100%;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.main-outer-box{
+    height:30vh;
+    width:800px;
+
+    margin:auto;
+    
+    margin-top: 2rem;
+    
+}
+
+.display-time{
+    width:100%;
+    height:30vh;
+    background-color:#E5E7EB;
+    font-weight: 100;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 2%;
+    
+}
